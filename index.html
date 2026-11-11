@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff1f5" />
+  <meta name="description" content="A little place made with love, just for you." />
+  <title>A Little Place Called Us ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient-glow glow-one"></div>
+  <div class="ambient-glow glow-two"></div>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <main>
+    <section class="welcome section" id="home">
+      <div class="tiny-label"><span>✦</span> MADE WITH LOVE <span>✦</span></div>
+      <h1>A Little Place<br><em>Called Us</em></h1>
+      <p class="intro">A tiny corner of the internet, made just for you.<br>Take a breath, and open what's waiting for you. ♡</p>
+
+      <div class="envelope-wrap">
+        <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Open your letter">
+          <div class="envelope-back"></div>
+          <div class="letter-preview"><span>To my favourite person</span><b>♡</b></div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <div class="wax-seal">♡</div>
+        </div>
+      </div>
+      <button class="primary-btn" id="openLetter">Open your little letter <span>♡</span></button>
+      <p class="microcopy">P.S. This is better when read slowly.</p>
+      <div class="scroll-hint">A little more below <span>↓</span></div>
+    </section>
+
+    <section class="letter-section section hidden" id="letterSection">
+      <div class="section-kicker">11 : 11 PM · A WISH FROM MY HEART</div>
+      <h2>For you, <em>always.</em></h2>
+      <article class="letter-card">
+        <div class="letter-top"><span>♡</span><span>11.11.2026</span></div>
+        <div id="letterText" class="letter-text"></div>
+        <div class="letter-sign">With all my love,<br><em>Your person ♡</em></div>
+      </article>
+      <button class="text-btn" id="toReasons">There’s a little more… <span>↓</span></button>
+    </section>
+
+    <section class="reasons-section section hidden" id="reasonsSection">
+      <div class="section-kicker">A LITTLE LIST, JUST FOR YOU</div>
+      <h2>11 reasons why<br><em>you're my favourite</em></h2>
+      <p class="section-subtitle">Tap each heart. I tucked a little thought inside every one.</p>
+      <div class="reasons-grid" id="reasonsGrid"></div>
+      <button class="primary-btn" id="toEnding">One last thing <span>♡</span></button>
+    </section>
+
+    <section class="ending-section section hidden" id="endingSection">
+      <div class="ending-stars" aria-hidden="true">✦　·　♡　·　✦</div>
+      <div class="final-heart">♡</div>
+      <div class="section-kicker">MY 11:11 WISH</div>
+      <h2>In every version<br>of tomorrow, <em>I hope it's us.</em></h2>
+      <p class="ending-message">I can't promise we'll never have difficult days. But I hope we keep choosing honesty, patience, forgiveness and each other. I don't want to win an argument and lose a moment with you. I want us to understand each other a little better, one day at a time.</p>
+      <p class="big-wish">Among all the wishes people make at 11:11,<br>mine has only four letters — <strong>US.</strong></p>
+      <p class="love-you">I love you. More than this little website can hold. ♡</p>
+      <button class="restart-btn" id="restart">Read it all again ↺</button>
+      <div class="footer-note">made of little thoughts & lots of love ✧</div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
